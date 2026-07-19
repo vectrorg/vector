@@ -1,0 +1,109 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+.paused {
+  animation-play-state: paused !important;
+}
+
+.carousel-container {
+  width: 100%;
+  max-height: 55vh;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Member card styles */
+.member-card {
+  height: 50vh;
+  width: 75vw;
+  flex-shrink: 0;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 40rem) {
+  .member-card {
+    width: 20vw;
+  }
+}
+
+.member-card:hover {
+  transform: scale(1.05);
+}
+
+.member-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.member-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.member-card:hover .member-overlay {
+  opacity: 1;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.social-link:hover {
+  color: #a0a0a0;
+}
+
+.member-info {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  color: white;
+  z-index: 10;
+  text-align: left;
+}
+
+.member-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.member-position {
+  font-size: 0.875rem;
+}

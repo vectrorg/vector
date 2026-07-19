@@ -1,0 +1,32 @@
+
+
+.swiper-pagination-bullet {
+    background-color: transparent;
+    width: auto ;
+    height: auto ;
+  }
+  
+
+  /* Custom bullet appearance */
+  .custom-pagination-bullet {
+    background-color: transparent;
+    color: white; /* Change color based on preference */
+    font-weight: bold;
+    margin: 0 10px; /* Add spacing between items */
+    cursor: pointer; /* Make pagination clickable */
+    padding: 5px;
+  }
+  
+  /* Optional hover effects for pagination */
+  .custom-pagination-bullet:hover {
+    color: rgb(249, 115, 22); /* Change hover color */
+    text-decoration: underline;
+  }
+  
+  /* Active slide text style */
+  .swiper-pagination-bullet-active {
+    color: rgb(249, 115, 22); /* Style for active bullet (selected slide) */
+  }
+  
+
+

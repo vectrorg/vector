@@ -1,0 +1,29 @@
+[
+    {
+      "Name": "Ayus Kumar Pathak",
+      "RegNo": "23BCE7997",
+      "contactNo": 1234567890,
+      "Position": "Founder",
+      "linkedin": "https://www.linkedin.com/in/ayus-pathak/",
+  
+      "img":"profilePics/admin/ayush.jpg"
+    },
+    
+    {
+      "Name": "Abhinav Pentani",
+      "RegNo": "23BCB7023",
+      "contactNo": 987654321,
+      "Position": "Founder",
+      "linkedin": "https://www.linkedin.com/in/abhinav-pentani/",
+      "img": "/profilePics/admin/Abhinav.jpg"
+    },
+    {
+      "Name": "Shaik Saifuddin",
+      "RegNo": "23BCB7023",
+      "contactNo": 987654321,
+      "Position": "Founder",
+      "linkedin": "https://www.linkedin.com/in/shaik-saifuddin-482947272/",
+      "img": "/profilePics/admin/M4.jpg"
+    }
+    
+  ]
