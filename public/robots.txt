@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://vectr.co.in
+
+# Sitemaps
+Sitemap: https://vectr.co.in/sitemap.xml
