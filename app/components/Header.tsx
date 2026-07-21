@@ -175,7 +175,7 @@ const Header = () => {
             For Students
           </Link>
           <Link
-            href="/for-educators"
+            href="/for-creators"
             className={`text-white hover:text-purple-500 transition-all duration-300 text-lg ${outfitFont.className} 
               hover:font-semibold`}
             onClick={() => setMobileMenuOpen(false)}
